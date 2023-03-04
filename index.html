@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <section class="lesn-contact-us-section">
+    <h3>Продукти додому</h3>
+    <form action="#" method="get">
+      <div class="lesn-contact-us-form-inputs">
+        <div>
+          <label for="Ваше им'я">Ваше им'я</label>
+          <input
+            id="Ваше им'я"
+            type="text"
+            name="name"
+            placeholder="Іванко Іваненко"
+            class="lesn-contact-us-input"
+            required
+          >
+        <br/>
+        <br/>
+        <div>
+        <label for="Ваш email">Ваш email</label> 
+        <input
+          type="email"
+          name="email"
+          placeholder="example@gmail.com"
+          class="lesn-contact-us-input"
+          required
+        >
+        <br/>
+        <br/>
+        <select name="number" autofocus class="lesn-contact-us-input">
+          <option required disabled="disabled" selected="selected">Виберіть</option>
+          <option value="1">М'ясо</option>
+          <option value="2">Риба</option>
+          <option value="3">Кефір</option>
+          <option value="4">Картопля</option>
+        </select>
+        <select name="number" autofocus class="lesn-contact-us-input">
+          <option required disabled="disabled" selected="selected">Виберіть кількість</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div class="lesn-form-footer">
+        <br/> 
+        <button type="submit" class="lesn-form-footer-btn">
+          Додати до кошика
+        </button>
+      </div>
+    </form>
+  </section>
+   
+</body>
+</html>
